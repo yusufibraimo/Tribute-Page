@@ -1,2 +1,154 @@
-* {font-family: 'Stick No Bills', sans-serif;
-font-family: 'Ubuntu', sans-serif;}
+* {
+    font-size: 19px;
+  }
+  
+  body {
+    font-family: 20px;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    margin: 0;
+  }
+
+ #links_one {
+    color: rgb(10, 248, 62);
+}
+
+#tribute-link {
+    color: rgb(10, 248, 62);
+}
+
+@media (max-width: 450px) {
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+    }
+  }
+
+@media (max-width: 460px) {
+    #img-caption {
+      font-size: 1.4rem;
+    }
+  }
+
+@media (max-width:440px){
+    #main { margin: 0%;
+
+    }
+}
+
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #00CEA3;
+    background: -moz-linear-gradient(-45deg, #00CEA3 0%, #1C6EA4 36%, #F300FF 100%);
+    background: -webkit-linear-gradient(-45deg, #00CEA3 0%, #1C6EA4 36%, #F300FF 100%);
+    background: linear-gradient(135deg, #00CEA3 0%, #1C6EA4 36%, #F300FF 100%);
+  }
+  a:visited {
+    color: #f50000;
+  }
+  a:hover {
+      font-size: 15px;
+  }
+  
+  a {
+    color: rgb(10, 248, 62);
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+  }
+
+  #title {
+    color: #FFFFFF;
+    text-shadow: 0 0 5px #FFF, 0 0 10px #FFF, 0 0 15px #FFF, 0 0 20px #49ff18, 0 0 30px #49FF18, 0 0 40px #49FF18, 0 0 55px #49FF18, 0 0 75px #49ff18;
+  }
+
+  .sub-heading{
+    font-family: 'Bonheur Royale', cursive;
+    color: rgb(196, 236, 17); 
+    font-size: 40px;
+  }
+  
+  #yusuf {
+    color: #FFFFFF;
+    text-shadow: 2px 2px 0 #4074b5, 2px -2px 0 #4074b5, -2px 2px 0 #4074b5, -2px -2px 0 #4074b5, 2px 0px 0 #4074b5, 0px 2px 0 #4074b5, -2px 0px 0 #4074b5, 0px -2px 0 #4074b5;
+    color: #FFFFFF;
+  }
+
+  #yusuf:hover {
+      color: black;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  #img-div {
+    padding: 10px;
+    margin: 0;
+  }
+
+  #img-caption {
+    margin: 10px 0 5px 0;
+    color: transparent;
+    background: #666666;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    text-shadow: 0px 3px 3px rgba(255, 255, 255, 0.993);
+
+  }
+
+  #subhead {
+    margin: 50px 0;
+    text-align: center;
+    color: orange;
+    font-size: 2rem;
+  }
+
+  ul {
+    max-width: 600px;
+    margin: 0 auto 50px auto;
+    text-align: center;
+    line-height: 1.6;
+  }
+  
+  li {
+    margin: 16px 0;
+  }
+
+  .lifeinfo {
+    font-size: 20px;
+  } 
+
+#firsteffect:hover {
+        color: yellow;
+}
+#secondeffect:hover {
+    color: white;
+}
+#thirdeffect:hover {
+    color: rgb(4, 4, 247);
+}
+#fourtheffect:hover {
+        color: orange;
+}
+#fiftheffect:hover {
+    color: yellow;
+}
+#sixtheffect:hover {
+    color: white;
+}
+#seventheffect:hover {
+    color: rgb(4, 4, 247);
+}
+#eightheffect:hover {
+    color: orange;
+}
